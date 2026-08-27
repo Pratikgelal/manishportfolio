@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manish Timalsina | Portfolio</title>
+  <meta name="description"
+    content="Manish Timalsina — MBA graduate of University Canada West, business & management professional based in Vancouver, Canada." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="siteContent">
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">Manish<span class="dot">.</span></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <div class="nav-actions">
+            <a href="https://www.instagram.com/manish___timalsina/" target="_blank" rel="noopener" class="nav-icon"
+              aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:mtimalsina90@gmail.com?subject=Get%20in%20Touch" class="nav-cta">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+      <canvas id="particles"></canvas>
+
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1 class="hero-title">Hi there <span class="wave">👋</span><br>Welcome to my portfolio</h1>
+          <h2 class="hero-subtitle">I'm <span class="gradient-text glow-text">Manish Timalsina</span></h2>
+          <div class="hero-badges">
+            <span class="badge">MBA Graduate</span>
+            <span class="badge">Business &amp; Management</span>
+            <span class="badge">Analytical Thinker</span>
+          </div>
+          <p class="hero-desc">Business and management professional based in Vancouver, Canada, with a Master of
+            Business Administration from University Canada West. I bring a Science foundation from Kathmandu together
+            with a business and management education to think analytically about strategy, operations, and
+            leadership.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-handshake"></i> Get In Touch</a>
+            <a href="mailto:mtimalsina90@gmail.com?subject=Hello%20Manish" class="btn btn-outline"><i
+                class="fas fa-envelope"></i> Email Me</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-photo">
+            <div class="hero-photo-glow"></div>
+            <div class="hero-photo-frame">
+              <!-- HOMEPAGE IMAGE: img1.jpeg -->
+              <img src="img1.jpeg" alt="Manish Timalsina, MBA Graduate" class="hero-photo-img">
+              <span class="hero-photo-pin" title="Open to opportunities"></span>
+              <div class="hero-photo-caption">
+                <h3>Manish Timalsina</h3>
+                <p>MBA Graduate &middot; UCW, Class of 2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-fade"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who <span class="gradient-text">I Am</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-photo-wrap">
+            <div class="about-frame">
+
+              <!-- ABOUT IMAGE: img2.jpeg -->
+              <img src="img2.jpeg" alt="Manish Timalsina" class="about-photo">
+
+              <div class="about-frame-quote">
+                <p>"Combining analytical thinking with business and management to build a career in Canada."</p>
+              </div>
+            </div>
+            <div class="deco-square sq-1"></div>
+            <div class="deco-square sq-2"></div>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <h3>Business &amp; Management Professional</h3>
+          <p>I hold a Master of Business Administration (MBA) from University Canada West, Class of 2026. My academic
+            journey began with a Science background in Kathmandu before moving into Business Administration &mdash; a
+            combination that helps me connect analytical thinking with business and management practice.</p>
+          <p>I'm a strong communicator and collaborator who enjoys organizing complex problems into clear, workable
+            plans. Today, I'm focused on strengthening my professional skills and building opportunities for a
+            successful career in Canada, in roles where I can apply my business and leadership education to real
+            challenges.</p>
+
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="info-label">Location</span><span class="info-value">Vancouver, Canada</span></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div><span class="info-label">Education</span><span class="info-value">MBA Graduate, 2026</span></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-earth-asia"></i></div>
+              <div><span class="info-label">Background</span><span class="info-value">Kathmandu, Nepal</span></div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-heart"></i></div>
+              <div><span class="info-label">Focus</span><span class="info-value">Business &amp; Leadership</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section: Experience + Education -->
+    <section class="section resume" id="resume">
+      <span class="resume-watermark">RESUME</span>
+      <div class="section-header reveal">
+        <span class="section-tag">My Background</span>
+        <h2 class="section-title">Resume</h2>
+      </div>
+
+      <div class="resume-grid">
+
+        <!-- Experience -->
+        <div class="resume-col reveal">
+          <div class="resume-col-head">
+            <div class="resume-col-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <h3>Experience</h3>
+          </div>
+          <div class="resume-track">
+
+            <div class="resume-entry current">
+              <div class="resume-node"></div>
+              <span class="resume-date">2024 &middot; ~1 Year</span>
+              <h4 class="resume-role">Banking &amp; Financial Services</h4>
+              <p class="resume-org">Nabil Bank &middot; Duwakot, Nepal</p>
+              <p class="resume-desc">Gained hands-on exposure to banking operations, customer service and client
+                interaction, financial service processes, documentation, and day-to-day banking activities &mdash;
+                building professional communication and teamwork skills along the way.</p>
+            </div>
+
+            <!--
+            TODO: Add real experience entries here manually. Example structure:
+
+            <div class="resume-entry placeholder">
+              <div class="resume-node"></div>
+              <h4 class="resume-role">Experience Title</h4>
+              <p class="resume-org">Company Name &middot; Location</p>
+              <p class="resume-desc">Add a short description of your role and achievements here.</p>
+            </div>
+
+            <div class="resume-entry placeholder">
+              <div class="resume-node"></div>
+              <h4 class="resume-role">Experience Title</h4>
+              <p class="resume-org">Company Name &middot; Location</p>
+              <p class="resume-desc">Add a short description of your role and achievements here.</p>
+            </div>
+
+            <div class="resume-entry placeholder">
+              <div class="resume-node"></div>
+              <h4 class="resume-role">Experience Title</h4>
+              <p class="resume-org">Company Name &middot; Location</p>
+              <p class="resume-desc">Add a short description of your role and achievements here.</p>
+            </div>
+            -->
+
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-col reveal">
+          <div class="resume-col-head">
+            <div class="resume-col-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+          </div>
+          <div class="resume-track">
+
+            <div class="resume-entry current">
+              <div class="resume-node"></div>
+              <span class="resume-date">2025 &ndash; 2026 &middot; Completed</span>
+              <h4 class="resume-role">Master of Business Administration (MBA)</h4>
+              <p class="resume-org">University Canada West (UCW), Canada</p>
+              <p class="resume-desc">Developed practical knowledge and understanding in business, management,
+                leadership, and organizational decision-making.</p>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-node"></div>
+              <span class="resume-date">Completed</span>
+              <h4 class="resume-role">Bachelor of Business Administration (BBA)</h4>
+              <p class="resume-org">Sainik Awasiya Mahavidyalaya &middot; Kathmandu, Nepal</p>
+              <p class="resume-desc">Built a foundation in business, management, finance, marketing, and
+                organizational concepts.</p>
+            </div>
+
+            <div class="resume-entry">
+              <div class="resume-node"></div>
+              <span class="resume-date">Completed</span>
+              <h4 class="resume-role">Higher Secondary Education &mdash; Science</h4>
+              <p class="resume-org">CCRC College &middot; Kathmandu, Nepal</p>
+              <p class="resume-desc">Developed analytical, problem-solving, and technical thinking skills that later
+                carried through into business studies.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="resume-cta reveal">
+        <button type="button" class="btn btn-primary" id="viewCvBtn">
+          <i class="fa-solid fa-file-pdf"></i> View CV
+        </button>
+        <a href="cv.pdf" download class="btn btn-outline">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+      </div>
+
+      <div class="cv-viewer" id="cvViewer" aria-hidden="true">
+        <div class="cv-viewer-inner">
+          <div class="cv-viewer-head">
+            <span><i class="fa-solid fa-file-pdf"></i> Manish_Timalsina_CV.pdf</span>
+            <div class="cv-viewer-actions">
+              <a href="cv.pdf" download title="Download CV" class="cv-action"><i class="fa-solid fa-download"></i></a>
+              <button type="button" id="closeCvBtn" title="Close" class="cv-action"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+          </div>
+          <iframe src="" data-src="cv.pdf" title="Manish Timalsina CV" class="cv-frame" id="cvFrame"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <canvas id="skillsCanvas"></canvas>
+
+      <div class="skills-header">
+        <span class="skills-subtitle">WHAT I BRING</span>
+        <h2 class="skills-title">My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-groups">
+
+        <div class="skill-group">
+          <h4>Business &amp; Management</h4>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fa-solid fa-briefcase"></i> Business Administration</span>
+            <span class="skill-tag"><i class="fa-solid fa-users-gear"></i> Management</span>
+            <span class="skill-tag"><i class="fa-solid fa-comments"></i> Business Communication</span>
+            <span class="skill-tag"><i class="fa-solid fa-sitemap"></i> Organizational Skills</span>
+            <span class="skill-tag"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+            <span class="skill-tag"><i class="fa-solid fa-people-group"></i> Teamwork</span>
+            <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> Leadership Development</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Banking &amp; Finance</h4>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fa-solid fa-building-columns"></i> Banking Operations</span>
+            <span class="skill-tag"><i class="fa-solid fa-headset"></i> Customer Service</span>
+            <span class="skill-tag"><i class="fa-solid fa-sack-dollar"></i> Financial Services</span>
+            <span class="skill-tag"><i class="fa-solid fa-file-invoice"></i> Documentation</span>
+            <span class="skill-tag"><i class="fa-solid fa-message"></i> Client Communication</span>
+            <span class="skill-tag"><i class="fa-solid fa-clipboard-list"></i> Administrative Support</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Professional Skills</h4>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fa-solid fa-comment-dots"></i> Communication</span>
+            <span class="skill-tag"><i class="fa-solid fa-clock"></i> Time Management</span>
+            <span class="skill-tag"><i class="fa-solid fa-arrows-spin"></i> Adaptability</span>
+            <span class="skill-tag"><i class="fa-solid fa-brain"></i> Analytical Thinking</span>
+            <span class="skill-tag"><i class="fa-solid fa-handshake-angle"></i> Collaboration</span>
+            <span class="skill-tag"><i class="fa-solid fa-seedling"></i> Professional Development</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Journey / Objective Section (in place of a projects grid) -->
+    <section class="section journey" id="journey">
+      <div class="section-header reveal">
+        <span class="section-tag">Professional Journey</span>
+        <h2 class="section-title">My <span class="gradient-text">Path</span></h2>
+      </div>
+
+      <div class="journey-path">
+        <div class="journey-step reveal">
+          <div class="journey-step-icon"><i class="fa-solid fa-flask"></i></div>
+          <h4>Science</h4>
+          <p>Higher secondary, Kathmandu</p>
+        </div>
+        <div class="journey-step reveal">
+          <div class="journey-step-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h4>Business Administration</h4>
+          <p>BBA, Kathmandu</p>
+        </div>
+        <div class="journey-step reveal">
+          <div class="journey-step-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h4>Professional Growth</h4>
+          <p>Building real-world skills</p>
+        </div>
+        <div class="journey-step reveal">
+          <div class="journey-step-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h4>MBA Graduate</h4>
+          <p>University Canada West, 2026</p>
+        </div>
+      </div>
+
+      <div class="objective-card reveal">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>My goal is to build a successful career in business and management in Canada by combining my academic
+          background and MBA education &mdash; taking on meaningful responsibilities, contributing to organizations,
+          and growing as a business professional and future leader.</p>
+        <span>Career Objective</span>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="section-header reveal">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+        <p class="contact-subtitle">Open to connecting with professionals, organizations, and individuals interested
+          in business, management, finance, and professional opportunities.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <div class="contact-card" onclick="copyEmail(this)">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">mtimalsina90@gmail.com</span>
+              <span class="copy-hint"><i class="fa-solid fa-copy"></i> Click to copy</span>
+            </div>
+            <span class="copied-msg">Copied!</span>
+          </div>
+
+          <a href="https://www.instagram.com/manish___timalsina/" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon instagram"><i class="fa-brands fa-instagram"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Instagram</span>
+              <span class="contact-value">@manish___timalsina</span>
+              <span class="copy-hint"><i class="fa-solid fa-arrow-up-right-from-square"></i> Follow</span>
+            </div>
+          </a>
+
+          <div class="contact-card" style="cursor:default;">
+            <div class="contact-icon location"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Vancouver, Canada</span>
+            </div>
+          </div>
+
+          <div class="contact-tagline"><i class="fa-solid fa-handshake"></i> Let's connect and build something great
+            together!</div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="c-name">Your Name</label>
+              <input type="text" id="c-name" placeholder="Jane Doe">
+            </div>
+            <div class="form-group">
+              <label for="c-email">Your Email</label>
+              <input type="email" id="c-email" placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="c-msg">Message</label>
+              <textarea id="c-msg" rows="4" placeholder="Hi Manish, I'd love to connect..."></textarea>
+            </div>
+            <button class="btn btn-primary send-btn" onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i>
+              Send Message</button>
+            <p class="form-note" id="form-note"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo-text">Manish<span class="dot">.</span></a>
+          <p>MBA Student &amp; Business Professional based in Vancouver, Canada.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/manish___timalsina/" target="_blank" rel="noopener"
+              aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:mtimalsina90@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4>Contact</h4>
+          <p>Based in Vancouver, Canada</p>
+          <a href="mailto:mtimalsina90@gmail.com" class="footer-email-link">mtimalsina90@gmail.com</a>
+          <a href="mailto:mtimalsina90@gmail.com" class="btn btn-outline btn-small">Email Me</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Manish Timalsina. All Rights Reserved.</p>
+        <a href="#home" class="scroll-top" title="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+
+  </div> <!-- /#siteContent -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
